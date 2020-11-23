@@ -1,6 +1,6 @@
 import debug from "debug";
 
-const logger = debug("@govtechsg/opencerts-verify");
+const logger = debug("@worldcertscom/verify");
 
 export const trace = (namespace: string) => logger.extend(`trace:${namespace}`);
 export const info = (namespace: string) => logger.extend(`info:${namespace}`);

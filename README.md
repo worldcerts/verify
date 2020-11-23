@@ -1,4 +1,4 @@
-# @govtechsg/opencerts-verify
+# @worldcertscom/verify
 
 [![CircleCI](https://circleci.com/gh/OpenCerts/verify.svg?style=svg)](https://circleci.com/gh/OpenCerts/verify)
 
@@ -7,14 +7,14 @@ Library to verify any [Opencerts](https://opencerts.io) document. This library e
 ## Installation
 
 ```sh
-npm install @govtechsg/opencerts-verify
+npm install @worldcertscom/verify
 ```
 
 ## Usage
 
 ```typescript
 import { documentMainnetValidWithCertificateStore } from "./test/fixtures/v2/document";
-import { verify, isValid } from "@govtechsg/opencerts-verify";
+import { verify, isValid } from "@worldcertscom/verify";
 
 const fragments = await verify(documentMainnetValidWithCertificateStore, { network: "ropsten" });
 console.log(fragments); // see below
