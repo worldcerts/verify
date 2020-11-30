@@ -104,7 +104,7 @@ export const registryVerifier: Verifier<
     });
   },
   verify: async document => {
-    const registry: Registry = await fetch("https://opencerts.io/static/registry.json").then(res => res.json());
+    const registry: Registry = await fetch("https://worldcerts.com/static/registry.json").then(res => res.json());
 
     if (isWrappedV3Document(document)) {
       const documentData = getData(document);

@@ -1,11 +1,11 @@
 {
-  "name": "@govtechsg/opencerts-verify",
-  "version": "1.0.1",
-  "description": "Library to verify any opencerts document",
+  "name": "@worldcertscom/verify",
+  "version": "1.0.4",
+  "description": "Library to verify any worldcerts document",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OpenCerts/verify.git"
+    "url": "https://github.com/worldcerts/verify.git"
   },
   "main": "dist/index.js",
   "files": [
