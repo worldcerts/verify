@@ -5,7 +5,7 @@ import {
   VerificationFragment,
   VerificationFragmentType,
   VerificationManagerOptions
-} from "@govtechsg/oa-verify";
+} from "@worldcertscom/oa-verify";
 import fetch from "node-fetch";
 import { getData, v2, v3, WrappedDocument, utils } from "@govtechsg/open-attestation";
 
@@ -110,7 +110,7 @@ export const registryVerifier: Verifier<
     });
   },
   verify: async document => {
-    const registry: Registry = await fetch("https://opencerts.io/static/registry.json").then(res => res.json());
+    const registry: Registry = await fetch("https://worldcerts.com/static/registry.json").then(res => res.json());
 
     if (utils.isWrappedV3Document(document)) {
       const documentData = getData(document);
