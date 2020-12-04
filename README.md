@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/OpenCerts/verify.svg?style=svg)](https://circleci.com/gh/OpenCerts/verify)
 
-Library to verify any [Opencerts](https://opencerts.io) document. This library extends [@govtechsg/oa-verify](https://github.com/Open-Attestation/oa-verify).
+Library to verify any [Opencerts](https://opencerts.io) document. This library extends [@worldcertscom/oa-verify](https://github.com/worldcerts/oa-verify).
 
 ## Installation
 
@@ -90,7 +90,7 @@ console.log(isValid(fragments)); // display true
 ]
 ```
 
-## Differences with @govtechsg/oa-verify
+## Differences with @worldcertscom/oa-verify
 
 ### OpencertsRegistryVerifier
 

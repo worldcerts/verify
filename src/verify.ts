@@ -6,7 +6,7 @@ import {
   VerificationFragmentType,
   VerificationManagerOptions,
   isWrappedV3Document
-} from "@govtechsg/oa-verify";
+} from "@worldcertscom/oa-verify";
 import fetch from "node-fetch";
 import { getData, v2, v3, WrappedDocument } from "@govtechsg/open-attestation";
 
