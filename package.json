@@ -1,6 +1,6 @@
 {
   "name": "@worldcertscom/verify",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Library to verify any worldcerts document",
   "license": "GPL-3.0",
   "repository": {
