@@ -1,8 +1,6 @@
 # @worldcertscom/verify
 
-[![CircleCI](https://circleci.com/gh/OpenCerts/verify.svg?style=svg)](https://circleci.com/gh/OpenCerts/verify)
-
-Library to verify any [Opencerts](https://opencerts.io) document. This library extends [@govtechsg/oa-verify](https://github.com/Open-Attestation/oa-verify).
+Library to verify any [Worldcerts](https://worldcerts.com) document. This library extends [@worldcertscom/oa-verify](https://github.com/worldcerts/oa-verify).
 
 ## Installation
 
@@ -94,10 +92,10 @@ console.log(isValid(fragments)); // display true
 
 ### OpencertsRegistryVerifier
 
-`OpencertsRegistryVerifier` is a new verifier specific to [Opencerts](https://opencerts.io) documents:
+`OpencertsRegistryVerifier` is a new verifier specific to [Worldcerts](https://worldcerts.com) documents:
 
 -   it ensures document `ISSUER_IDENTITY` and works closely with `OpenAttestationDnsTxt` verifier (see `isValid` below)
--   it returns a `VALID` fragment if at least one of the issuer is in [Opencerts registry](https://opencerts.io/static/registry.json)
+-   it returns a `VALID` fragment if at least one of the issuer is in [Worldcerts registry](https://worldcerts.com/static/registry.json)
 -   it returns a `SKIPPED` fragment if none of the issuers is in the registry.
 
 ### isValid
