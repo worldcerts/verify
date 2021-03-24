@@ -1,6 +1,6 @@
 {
   "name": "@worldcertscom/verify",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Library to verify any worldcerts document",
   "license": "GPL-3.0",
   "repository": {
@@ -33,7 +33,7 @@
   },
   "types": "dist/ts/src",
   "dependencies": {
-    "@worldcertscom/oa-verify": "^7.0.1",
+    "@worldcertscom/oa-verify": "7.0.2",
     "@govtechsg/open-attestation": "^4.1.1",
     "debug": "4.3.1",
     "node-fetch": "2.6.1"
