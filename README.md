@@ -94,16 +94,16 @@ console.log(isValid(fragments)); // display true
 
 `OpencertsRegistryVerifier` is a new verifier specific to [Worldcerts](https://worldcerts.com) documents:
 
--   it ensures document `ISSUER_IDENTITY` and works closely with `OpenAttestationDnsTxt` verifier (see `isValid` below)
--   it returns a `VALID` fragment if at least one of the issuer is in [Worldcerts registry](https://worldcerts.com/static/registry.json)
--   it returns a `SKIPPED` fragment if none of the issuers is in the registry.
+*   it ensures document `ISSUER_IDENTITY` and works closely with `OpenAttestationDnsTxt` verifier (see `isValid` below)
+*   it returns a `VALID` fragment if at least one of the issuer is in [Worldcerts registry](https://worldcerts.com/static/registry.json)
+*   it returns a `SKIPPED` fragment if none of the issuers is in the registry.
 
 ### isValid
 
 With the addition of `OpencertsRegistryVerifier` verifier, different rules apply for `ISSUER_IDENTITY` type verifiers:
 
--   `ISSUER_IDENTITY` is valid if at least one issuer is in the registry, i.e. if `OpencertsRegistryVerifier` has status `VALID`
--   if `OpencertsRegistryVerifier` doesn't have `VALID` status then all issuers must have valid DNS-TXT record.
+*   `ISSUER_IDENTITY` is valid if at least one issuer is in the registry, i.e. if `OpencertsRegistryVerifier` has status `VALID`
+*   if `OpencertsRegistryVerifier` doesn't have `VALID` status then all issuers must have valid DNS-TXT record.
 
 ## API
 
